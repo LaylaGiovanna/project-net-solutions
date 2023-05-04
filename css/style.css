@@ -1,0 +1,43 @@
+:root{
+    --header-background: #130d48ec;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+.menu-container-right {
+    height: 110px;
+    background-color: var(--header-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#root {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+/* .home-container {
+    background-color: black;
+} */
+
+.planetas-container {
+    background-color: palevioletred;
+}
+
+.episodios-container {
+    background-color: purple;
+}
